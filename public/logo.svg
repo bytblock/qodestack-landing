@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Qodestack Logo: Modern Q with code brackets -->
+
+  <!-- Outer Q circle -->
+  <circle cx="100" cy="100" r="70" stroke="url(#gradient1)" stroke-width="8" fill="none"/>
+
+  <!-- Inner bracket symbols -->
+  <path d="M 70 80 L 60 80 L 60 120 L 70 120" stroke="url(#gradient2)" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M 130 80 L 140 80 L 140 120 L 130 120" stroke="url(#gradient2)" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Q tail - modern angular design -->
+  <path d="M 135 135 L 160 160" stroke="url(#gradient1)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Small dots (stack representation) -->
+  <circle cx="100" cy="95" r="3" fill="#8b5cf6"/>
+  <circle cx="100" cy="105" r="3" fill="#3b82f6"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

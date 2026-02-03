@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   title: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
   description: 'Professional blockchain infrastructure and full-stack development services. Specializing in Web3, DevOps, and custom software solutions.',
   keywords: ['blockchain', 'infrastructure', 'full-stack', 'web3', 'devops', 'development'],
+  icons: {
+    icon: '/logo-icon.svg',
+    apple: '/logo-icon.svg',
+  },
+  openGraph: {
+    title: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
+    description: 'Professional blockchain infrastructure and full-stack development services.',
+    images: ['/logo.svg'],
+  },
 }
 
 export default function RootLayout({

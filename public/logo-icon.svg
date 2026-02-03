@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Favicon/Icon version: Minimal Q with brackets -->
+
+  <!-- Q circle -->
+  <circle cx="32" cy="32" r="22" stroke="url(#grad1)" stroke-width="4" fill="none"/>
+
+  <!-- Code brackets -->
+  <path d="M 22 26 L 18 26 L 18 38 L 22 38" stroke="url(#grad2)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 42 26 L 46 26 L 46 38 L 42 38" stroke="url(#grad2)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Q tail -->
+  <path d="M 43 43 L 51 51" stroke="url(#grad1)" stroke-width="4" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+</svg>

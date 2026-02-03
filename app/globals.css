@@ -1,23 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    @apply bg-matte-black text-gray-100;
+@theme {
+  --color-matte-black: #0a0a0a;
+  --color-matte-gray: #1a1a1a;
+  --color-matte-light: #2a2a2a;
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #8b5cf6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-matte-black);
+  color: rgb(243 244 246);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, var(--color-accent-blue), var(--color-accent-purple));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
-@layer utilities {
-  .gradient-text {
-    @apply bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent;
-  }
-  
+@media (min-width: 1024px) {
   .section-padding {
-    @apply py-20 px-6 md:px-12 lg:px-24;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
