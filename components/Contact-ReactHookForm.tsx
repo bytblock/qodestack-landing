@@ -1,29 +1,43 @@
 'use client'
 
 import { useState } from 'react'
+import { useForm } from 'react-hook-form'
+
+type FormData = {
+  name: string
+  email: string
+  company?: string
+  message: string
+}
 
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors }
+  } = useForm<FormData>()
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+  const onSubmit = async (data: FormData) => {
     setIsSubmitting(true)
     setSubmitStatus('idle')
-
-    const form = e.currentTarget
-    const formData = new FormData(form)
 
     try {
       const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString()
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...data
+        }).toString()
       })
 
       if (response.ok) {
         setSubmitStatus('success')
-        form.reset()
+        reset()
         setTimeout(() => setSubmitStatus('idle'), 5000)
       } else {
         setSubmitStatus('error')
@@ -56,7 +70,7 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
+          onSubmit={handleSubmit(onSubmit)}
           className="space-y-6"
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -71,13 +85,15 @@ export default function Contact() {
               Name *
             </label>
             <input
+              {...register('name', { required: 'Name is required' })}
               type="text"
               id="name"
-              name="name"
-              required
               className="w-full px-4 py-3 bg-matte-light border border-gray-700 rounded-lg focus:outline-none focus:border-accent-blue transition-colors"
               placeholder="Your name"
             />
+            {errors.name && (
+              <p className="mt-1 text-sm text-red-400">{errors.name.message}</p>
+            )}
           </div>
 
           <div>
@@ -85,13 +101,21 @@ export default function Contact() {
               Email *
             </label>
             <input
+              {...register('email', {
+                required: 'Email is required',
+                pattern: {
+                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                  message: 'Invalid email address'
+                }
+              })}
               type="email"
               id="email"
-              name="email"
-              required
               className="w-full px-4 py-3 bg-matte-light border border-gray-700 rounded-lg focus:outline-none focus:border-accent-blue transition-colors"
               placeholder="your@email.com"
             />
+            {errors.email && (
+              <p className="mt-1 text-sm text-red-400">{errors.email.message}</p>
+            )}
           </div>
 
           <div>
@@ -99,9 +123,9 @@ export default function Contact() {
               Company
             </label>
             <input
+              {...register('company')}
               type="text"
               id="company"
-              name="company"
               className="w-full px-4 py-3 bg-matte-light border border-gray-700 rounded-lg focus:outline-none focus:border-accent-blue transition-colors"
               placeholder="Your company (optional)"
             />
@@ -112,13 +136,15 @@ export default function Contact() {
               Message *
             </label>
             <textarea
+              {...register('message', { required: 'Message is required' })}
               id="message"
-              name="message"
-              required
               rows={6}
               className="w-full px-4 py-3 bg-matte-light border border-gray-700 rounded-lg focus:outline-none focus:border-accent-blue transition-colors resize-none"
               placeholder="Tell us about your project..."
             />
+            {errors.message && (
+              <p className="mt-1 text-sm text-red-400">{errors.message.message}</p>
+            )}
           </div>
 
           <button
