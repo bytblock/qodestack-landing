@@ -1,17 +1,31 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/#services' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Team', href: '/team' },
+    { name: 'Resources', href: '/resources' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/#contact' },
   ]
@@ -23,8 +37,12 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-matte-black/95 backdrop-blur-sm border-b border-gray-800">
-      <nav className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 py-4">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled
+        ? 'glass-strong shadow-2xl py-2'
+        : 'bg-matte-black/50 backdrop-blur-sm py-4 border-b border-gray-800'
+    }`}>
+      <nav className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <img src="/logo-icon.svg" alt="Qodestack" className="w-8 h-8" />

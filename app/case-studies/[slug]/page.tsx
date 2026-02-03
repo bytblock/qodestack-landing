@@ -10,7 +10,14 @@ import { Metadata } from 'next'
 
 const caseStudiesDirectory = path.join(process.cwd(), 'content/case-studies')
 
-function getCaseStudy(slug: string) {
+interface CaseStudyData {
+  title: string
+  excerpt?: string
+  challenge?: string
+  [key: string]: any
+}
+
+function getCaseStudy(slug: string): (CaseStudyData & { slug: string; content: string }) | null {
   try {
     const fullPath = path.join(caseStudiesDirectory, `${slug}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
@@ -19,7 +26,7 @@ function getCaseStudy(slug: string) {
     return {
       slug,
       content,
-      ...data
+      ...data as CaseStudyData
     }
   } catch (error) {
     return null
