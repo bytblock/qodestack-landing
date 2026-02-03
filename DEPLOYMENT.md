@@ -6,7 +6,7 @@
    ```bash
    git init
    git add .
-   git commit -m "Initial commit - Qodestack landing page"
+   git commit -m "Initial commit - Qodestak landing page"
    git remote add origin <your-repo-url>
    git push -u origin main
    ```
@@ -21,7 +21,7 @@
 
 3. **Configure Contact Form**
    - After deployment, go to "Forms" in Netlify dashboard
-   - Set up email notification to `hello@qodestack.com`
+   - Set up email notification to `hello@qodestak.com`
    - Form submissions will appear in the Forms tab
 
 4. **Add Custom Domain (Optional)**
@@ -79,4 +79,4 @@ npm start
 
 ## Support
 
-For deployment issues, contact Netlify support or email hello@qodestack.com
+For deployment issues, contact Netlify support or email hello@qodestak.com

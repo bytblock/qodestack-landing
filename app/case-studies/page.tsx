@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Case Studies | Qodestack',
+  title: 'Case Studies | Qodestak',
   description: 'Real-world projects showcasing our blockchain infrastructure, full-stack development, and Web3 integration expertise.',
 }
 

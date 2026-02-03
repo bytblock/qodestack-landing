@@ -606,7 +606,7 @@ Horizontal Pod Autoscaler (HPA) handles traffic spikes:
 
 ## Client Testimonial
 
-> "The Kubernetes migration was a game-changer for our business. Not only did we cut infrastructure costs in half, but our engineering team is now deploying features multiple times per day instead of weekly. The reliability improvements have been remarkable - we went from regular customer complaints about downtime to virtually none. Qodestack's expertise made what seemed like an impossible migration smooth and successful." - CTO, B2B SaaS Company
+> "The Kubernetes migration was a game-changer for our business. Not only did we cut infrastructure costs in half, but our engineering team is now deploying features multiple times per day instead of weekly. The reliability improvements have been remarkable - we went from regular customer complaints about downtime to virtually none. Qodestak's expertise made what seemed like an impossible migration smooth and successful." - CTO, B2B SaaS Company
 
 ## Lessons Learned
 

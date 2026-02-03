@@ -2,8 +2,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'About Us - Qodestack',
-  description: 'Learn about Qodestack\'s mission, values, and the team behind our blockchain and full-stack development services.',
+  title: 'About Us - Qodestak',
+  description: 'Learn about Qodestak\'s mission, values, and the team behind our blockchain and full-stack development services.',
 }
 
 export default function AboutPage() {
@@ -79,7 +79,7 @@ export default function AboutPage() {
         <section className="section-padding min-h-[50vh] flex items-center">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About <span className="gradient-text">Qodestack</span>
+              About <span className="gradient-text">Qodestak</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto">
               We build blockchain infrastructure and full-stack applications that power the decentralized future.
@@ -95,7 +95,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-6 text-lg text-gray-300">
               <p>
-                Qodestack specializes in blockchain infrastructure and full-stack development,
+                Qodestak specializes in blockchain infrastructure and full-stack development,
                 delivering enterprise-grade solutions that combine technical excellence with
                 practical implementation.
               </p>

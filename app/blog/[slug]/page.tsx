@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!post) {
     return {
-      title: 'Post Not Found - Qodestack Blog',
+      title: 'Post Not Found - Qodestak Blog',
     }
   }
 
   return {
-    title: `${post.title} - Qodestack Blog`,
+    title: `${post.title} - Qodestak Blog`,
     description: post.excerpt,
   }
 }

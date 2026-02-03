@@ -1,4 +1,4 @@
-# Qodestack Landing Page - Site Overview
+# Qodestak Landing Page - Site Overview
 
 ## Visual Design
 
@@ -11,7 +11,7 @@
 ### 1. Hero Section
 - Full viewport height
 - Centered content
-- Large headline: "Build the Future with **Qodestack**" (gradient text)
+- Large headline: "Build the Future with **Qodestak**" (gradient text)
 - Subheadline: Professional blockchain infrastructure description
 - Two CTA buttons:
   - Primary: "Get Started" (blue) → scrolls to contact
@@ -60,7 +60,7 @@ Black background with centered content:
 
 ### 4. Contact Section
 Dark gray background:
-- Headline with email link (hello@qodestack.com)
+- Headline with email link (hello@qodestak.com)
 - Full-featured form:
   - Name (required)
   - Email (required, validated)
@@ -69,11 +69,11 @@ Dark gray background:
   - Submit button
 - Success/error message display
 - Netlify Forms integration (serverless)
-- Form submissions go to hello@qodestack.com
+- Form submissions go to hello@qodestak.com
 
 ### 5. Footer
 Simple black footer:
-- Copyright © 2026 Qodestack
+- Copyright © 2026 Qodestak
 - Email link
 
 ## Color Palette

@@ -249,7 +249,7 @@ Compared to commercial RPC providers (Alchemy, Infura):
 
 ## Client Testimonial
 
-> "The infrastructure Qodestack built has been rock-solid for 8 months. We went from weekly outages to zero downtime. The monitoring dashboards give us complete visibility, and the automatic failover has saved us multiple times. Best investment we made." - CTO, DeFi Protocol
+> "The infrastructure Qodestak built has been rock-solid for 8 months. We went from weekly outages to zero downtime. The monitoring dashboards give us complete visibility, and the automatic failover has saved us multiple times. Best investment we made." - CTO, DeFi Protocol
 
 ## Future Enhancements
 

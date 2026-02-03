@@ -536,4 +536,4 @@ React performance optimization is an iterative process. Measure first, optimize 
 
 ---
 
-*Need help optimizing your React application? [Contact Qodestack](/contact) for a performance audit.*
+*Need help optimizing your React application? [Contact Qodestak](/contact) for a performance audit.*

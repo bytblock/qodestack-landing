@@ -8,16 +8,16 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://qodestack.com'),
+  metadataBase: new URL('https://qodestak.com'),
   title: {
-    default: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
-    template: '%s | Qodestack'
+    default: 'Qodestak - Blockchain Infrastructure & Full-Stack Development',
+    template: '%s | Qodestak'
   },
   description: 'Professional blockchain infrastructure and full-stack development services. Specializing in Web3, DevOps, and custom software solutions. Expert consulting for Ethereum nodes, smart contracts, and production-grade applications.',
   keywords: ['blockchain', 'infrastructure', 'full-stack', 'web3', 'devops', 'development', 'ethereum', 'smart contracts', 'kubernetes', 'postgresql', 'websockets', 'typescript', 'node.js', 'consulting'],
-  authors: [{ name: 'Qodestack Team' }],
-  creator: 'Qodestack',
-  publisher: 'Qodestack',
+  authors: [{ name: 'Qodestak Team' }],
+  creator: 'Qodestak',
+  publisher: 'Qodestak',
   formatDetection: {
     email: false,
     address: false,
@@ -30,22 +30,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://qodestack.com',
-    title: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
+    url: 'https://qodestak.com',
+    title: 'Qodestak - Blockchain Infrastructure & Full-Stack Development',
     description: 'Professional blockchain infrastructure and full-stack development services. Specializing in Web3, DevOps, and custom software solutions.',
-    siteName: 'Qodestack',
+    siteName: 'Qodestak',
     images: [
       {
         url: '/logo.svg',
         width: 1200,
         height: 630,
-        alt: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
+        alt: 'Qodestak - Blockchain Infrastructure & Full-Stack Development',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Qodestack - Blockchain Infrastructure & Full-Stack Development',
+    title: 'Qodestak - Blockchain Infrastructure & Full-Stack Development',
     description: 'Professional blockchain infrastructure and full-stack development services.',
     images: ['/logo.svg'],
   },
@@ -65,14 +65,14 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Qodestack',
+  name: 'Qodestak',
   description: 'Professional blockchain infrastructure and full-stack development services',
-  url: 'https://qodestack.com',
-  logo: 'https://qodestack.com/logo.svg',
+  url: 'https://qodestak.com',
+  logo: 'https://qodestak.com/logo.svg',
   sameAs: [
-    'https://github.com/qodestack',
-    'https://twitter.com/qodestack',
-    'https://linkedin.com/company/qodestack'
+    'https://github.com/qodestak',
+    'https://twitter.com/qodestak',
+    'https://linkedin.com/company/qodestak'
   ],
   contactPoint: {
     '@type': 'ContactPoint',

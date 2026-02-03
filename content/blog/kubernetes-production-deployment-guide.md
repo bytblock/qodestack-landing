@@ -2,7 +2,7 @@
 title: "Production Kubernetes Deployment: Complete Guide from Development to Scale"
 excerpt: "A comprehensive guide to deploying applications on Kubernetes in production, covering everything from cluster setup to monitoring, scaling, and cost optimization."
 date: "2024-06-15"
-author: "Qodestack Team"
+author: "Qodestak Team"
 tags: ["kubernetes", "devops", "deployment", "production", "infrastructure"]
 ---
 

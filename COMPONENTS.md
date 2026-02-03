@@ -7,7 +7,7 @@
 **Features**:
 - Full viewport height (`min-h-screen`)
 - Centered content
-- Gradient text effect on "Qodestack"
+- Gradient text effect on "Qodestak"
 - Two CTA buttons (primary & secondary)
 - Smooth scroll links to sections
 
@@ -214,7 +214,7 @@ Edit `components/About.tsx`:
 ```
 
 ### Change Contact Email
-Replace `hello@qodestack.com` in:
+Replace `hello@qodestak.com` in:
 - `components/Contact.tsx` (2 locations)
 - `components/Footer.tsx`
 

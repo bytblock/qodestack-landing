@@ -5,7 +5,7 @@ export default function Testimonials() {
       title: 'CTO',
       company: 'DeFi Protocol',
       image: '👩‍💼',
-      quote: 'The infrastructure Qodestack built has been rock-solid for 8 months. We went from weekly outages to zero downtime. The monitoring dashboards give us complete visibility, and the automatic failover has saved us multiple times.',
+      quote: 'The infrastructure Qodestak built has been rock-solid for 8 months. We went from weekly outages to zero downtime. The monitoring dashboards give us complete visibility, and the automatic failover has saved us multiple times.',
       project: 'Ethereum RPC Infrastructure'
     },
     {
@@ -21,7 +21,7 @@ export default function Testimonials() {
       title: 'Founder',
       company: 'Digital Art Platform',
       image: '🎨',
-      quote: 'Qodestack delivered beyond our expectations. The lazy minting feature was a game-changer for our creators, and the enforced royalties give them confidence in the platform. We\'ve seen steady growth and excellent user feedback since launch.',
+      quote: 'Qodestak delivered beyond our expectations. The lazy minting feature was a game-changer for our creators, and the enforced royalties give them confidence in the platform. We\'ve seen steady growth and excellent user feedback since launch.',
       project: 'NFT Marketplace'
     },
     {
@@ -37,7 +37,7 @@ export default function Testimonials() {
       title: 'Founder',
       company: 'Analytics Startup',
       image: '📊',
-      quote: 'Qodestack delivered exactly what we needed. The indexer is blazing fast, incredibly reliable, and the GraphQL API makes it easy for our customers to query the data they need. We tried building this in-house but couldn\'t get the performance we needed.',
+      quote: 'Qodestak delivered exactly what we needed. The indexer is blazing fast, incredibly reliable, and the GraphQL API makes it easy for our customers to query the data they need. We tried building this in-house but couldn\'t get the performance we needed.',
       project: 'Blockchain Indexer'
     },
     {
@@ -45,7 +45,7 @@ export default function Testimonials() {
       title: 'Head of Engineering',
       company: 'Fintech Startup',
       image: '💳',
-      quote: 'Working with Qodestack was a breath of fresh air. They understood our requirements immediately and delivered a solution that exceeded our expectations. Their expertise in both blockchain and traditional infrastructure was invaluable.',
+      quote: 'Working with Qodestak was a breath of fresh air. They understood our requirements immediately and delivered a solution that exceeded our expectations. Their expertise in both blockchain and traditional infrastructure was invaluable.',
       project: 'Payment Processing System'
     },
     {
@@ -53,7 +53,7 @@ export default function Testimonials() {
       title: 'VP of Product',
       company: 'Web3 Gaming Company',
       image: '🎮',
-      quote: 'The smart contract architecture Qodestack designed saved us thousands in gas fees and made our NFT system incredibly efficient. Their security recommendations prevented what could have been a catastrophic vulnerability.',
+      quote: 'The smart contract architecture Qodestak designed saved us thousands in gas fees and made our NFT system incredibly efficient. Their security recommendations prevented what could have been a catastrophic vulnerability.',
       project: 'Web3 Gaming Platform'
     },
     {
@@ -61,7 +61,7 @@ export default function Testimonials() {
       title: 'CEO',
       company: 'DAO Platform',
       image: '🏛️',
-      quote: 'Qodestack\'s DevOps expertise transformed our deployment process. We went from manual, error-prone deployments to a fully automated CI/CD pipeline. The peace of mind knowing our infrastructure is solid is priceless.',
+      quote: 'Qodestak\'s DevOps expertise transformed our deployment process. We went from manual, error-prone deployments to a fully automated CI/CD pipeline. The peace of mind knowing our infrastructure is solid is priceless.',
       project: 'DAO Infrastructure'
     }
   ]

@@ -1,8 +1,8 @@
-# Qodestack Landing Page - Project Summary
+# Qodestak Landing Page - Project Summary
 
 ## ✨ What's Been Built
 
-A production-ready, professional landing page for Qodestack with:
+A production-ready, professional landing page for Qodestak with:
 
 ### 🎨 Design
 - **Matte black theme** with blue and purple accents
@@ -21,7 +21,7 @@ A production-ready, professional landing page for Qodestack with:
 1. **Hero** - Compelling headline with dual CTAs
 2. **Services** - 4 core offerings with detailed features
 3. **About** - Company overview with key metrics
-4. **Contact** - Fully functional form → hello@qodestack.com
+4. **Contact** - Fully functional form → hello@qodestak.com
 5. **Footer** - Copyright and contact info
 
 ### 📦 What's Included
@@ -73,7 +73,7 @@ A production-ready, professional landing page for Qodestack with:
 1. Push code to Git repository
 2. Connect repository to Netlify
 3. Deploy (auto-configured)
-4. Configure form notifications to hello@qodestack.com
+4. Configure form notifications to hello@qodestak.com
 
 **Deployment takes ~2 minutes!**
 
@@ -85,7 +85,7 @@ A production-ready, professional landing page for Qodestack with:
 - **Email notifications** - Via Netlify
 - **Success/error feedback** - User-friendly messages
 
-Form data goes to **hello@qodestack.com**
+Form data goes to **hello@qodestak.com**
 
 ## 🎯 Key Features
 
@@ -103,7 +103,7 @@ Form data goes to **hello@qodestack.com**
 ## 📊 File Structure
 
 ```
-qodestack-landing/
+qodestak-landing/
 ├── app/
 │   ├── globals.css          # Tailwind styles
 │   ├── layout.tsx            # Root layout + SEO
@@ -173,4 +173,4 @@ Everything is set up and ready to deploy. Just:
 
 ---
 
-**Built with ❤️ for Qodestack**
+**Built with ❤️ for Qodestak**

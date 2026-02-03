@@ -2,7 +2,7 @@
 title: "Building Real-Time Applications with WebSockets: Complete Guide"
 excerpt: "Learn how to build production-ready real-time applications using WebSockets, covering architecture patterns, scaling strategies, and best practices for chat apps, live dashboards, and collaborative tools."
 date: "2024-06-25"
-author: "Qodestack Team"
+author: "Qodestak Team"
 tags: ["websockets", "real-time", "socket.io", "nodejs", "scalability"]
 ---
 

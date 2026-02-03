@@ -2,7 +2,7 @@
 title: "Blockchain Indexing Architecture: Building Fast, Scalable Data Pipelines"
 excerpt: "Learn how to build production-grade blockchain indexers that can process millions of events per day, with patterns for multi-chain support, real-time updates, and efficient querying."
 date: "2024-06-30"
-author: "Qodestack Team"
+author: "Qodestak Team"
 tags: ["blockchain", "indexing", "architecture", "rust", "postgresql"]
 ---
 

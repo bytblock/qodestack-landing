@@ -567,4 +567,4 @@ Observability is not optional in production. The upfront investment in monitorin
 
 ---
 
-*Need help implementing observability? [Contact Qodestack](/contact) for infrastructure consulting.*
+*Need help implementing observability? [Contact Qodestak](/contact) for infrastructure consulting.*

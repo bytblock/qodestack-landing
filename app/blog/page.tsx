@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { getBlogPosts } from '@/lib/blog'
 
 export const metadata = {
-  title: 'Blog - Qodestack',
+  title: 'Blog - Qodestak',
   description: 'Technical articles about blockchain infrastructure, full-stack development, DevOps, and Web3 technologies.',
 }
 

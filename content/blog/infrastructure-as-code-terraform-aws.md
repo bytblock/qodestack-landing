@@ -597,4 +597,4 @@ Terraform enables reliable, repeatable infrastructure deployments. Start simple,
 
 ---
 
-*Need help with infrastructure automation? [Contact Qodestack](/contact) for cloud infrastructure consulting.*
+*Need help with infrastructure automation? [Contact Qodestak](/contact) for cloud infrastructure consulting.*

@@ -808,7 +808,7 @@ volumes:
 
 ## Client Testimonial
 
-> "Qodestack delivered exactly what we needed. The indexer is blazing fast, incredibly reliable, and the GraphQL API makes it easy for our customers to query the data they need. We tried building this in-house with Python but couldn't get the performance we needed. Rust was the right choice and Qodestack executed flawlessly." - Founder, Analytics Startup
+> "Qodestak delivered exactly what we needed. The indexer is blazing fast, incredibly reliable, and the GraphQL API makes it easy for our customers to query the data they need. We tried building this in-house with Python but couldn't get the performance we needed. Rust was the right choice and Qodestak executed flawlessly." - Founder, Analytics Startup
 
 ## Future Enhancements
 

@@ -45,8 +45,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
-            <img src="/logo-icon.svg" alt="Qodestack" className="w-8 h-8" />
-            <span className="text-2xl font-bold gradient-text">Qodestack</span>
+            <img src="/logo-icon.svg" alt="Qodestak" className="w-8 h-8" />
+            <span className="text-2xl font-bold gradient-text">Qodestak</span>
           </Link>
 
           {/* Desktop Navigation */}

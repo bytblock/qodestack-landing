@@ -2,7 +2,7 @@
 title: "Advanced TypeScript Patterns for Production Applications"
 excerpt: "Master advanced TypeScript patterns including type guards, conditional types, mapped types, and design patterns that make your code more maintainable, type-safe, and scalable."
 date: "2024-07-05"
-author: "Qodestack Team"
+author: "Qodestak Team"
 tags: ["typescript", "patterns", "best-practices", "advanced", "type-safety"]
 ---
 

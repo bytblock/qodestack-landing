@@ -23,7 +23,7 @@ export default function Home() {
         <Testimonials />
         <CTASection
           title="Ready to Build the Future?"
-          description="Join industry leaders who trust Qodestack for their blockchain infrastructure and Web3 development needs."
+          description="Join industry leaders who trust Qodestak for their blockchain infrastructure and Web3 development needs."
           primaryButton={{
             text: "Start Your Project",
             href: "#contact"

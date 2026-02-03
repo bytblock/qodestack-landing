@@ -523,4 +523,4 @@ Start simple, measure performance, optimize bottlenecks.
 
 ---
 
-*Need help building scalable backend infrastructure? [Contact Qodestack](/contact) for a consultation.*
+*Need help building scalable backend infrastructure? [Contact Qodestak](/contact) for a consultation.*

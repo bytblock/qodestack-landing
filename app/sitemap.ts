@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://qodestack.com'
+  const baseUrl = 'https://qodestak.com'
 
   // Static pages
   const staticPages = [

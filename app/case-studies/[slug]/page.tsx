@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${caseStudy.title} | Case Studies | Qodestack`,
+    title: `${caseStudy.title} | Case Studies | Qodestak`,
     description: caseStudy.excerpt || caseStudy.challenge,
     openGraph: {
       title: caseStudy.title,

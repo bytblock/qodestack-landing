@@ -546,7 +546,7 @@ const { data } = useQuery(gql`
 
 ## Client Testimonial
 
-> "Qodestack delivered beyond our expectations. The lazy minting feature was a game-changer for our creators, and the enforced royalties give them confidence in the platform. We've seen steady growth and excellent user feedback since launch. The technical team was professional and responsive throughout." - Founder, Digital Art Platform
+> "Qodestak delivered beyond our expectations. The lazy minting feature was a game-changer for our creators, and the enforced royalties give them confidence in the platform. We've seen steady growth and excellent user feedback since launch. The technical team was professional and responsive throughout." - Founder, Digital Art Platform
 
 ## Future Enhancements
 

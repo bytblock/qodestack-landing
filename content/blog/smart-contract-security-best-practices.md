@@ -328,4 +328,4 @@ Remember: **Code is law** in smart contracts. There's no customer support to rev
 
 ---
 
-*Qodestack provides smart contract auditing and secure Web3 development services. [Contact us](/contact) for a security consultation.*
+*Qodestak provides smart contract auditing and secure Web3 development services. [Contact us](/contact) for a security consultation.*

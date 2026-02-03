@@ -143,10 +143,10 @@ The page renders immediately with loading states, then components stream in as d
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Qodestack - Blockchain Infrastructure',
+  title: 'Qodestak - Blockchain Infrastructure',
   description: 'Enterprise-grade blockchain infrastructure',
   openGraph: {
-    title: 'Qodestack',
+    title: 'Qodestak',
     description: 'Blockchain Infrastructure',
     images: ['/og-image.jpg'],
   },
@@ -164,7 +164,7 @@ export async function generateMetadata({
   const post = await getPost(params.slug)
 
   return {
-    title: `${post.title} - Qodestack Blog`,
+    title: `${post.title} - Qodestak Blog`,
     description: post.excerpt,
   }
 }
@@ -372,7 +372,7 @@ import { test, expect } from '@playwright/test'
 
 test('homepage loads', async ({ page }) => {
   await page.goto('/')
-  await expect(page.locator('h1')).toContainText('Qodestack')
+  await expect(page.locator('h1')).toContainText('Qodestak')
 })
 ```
 

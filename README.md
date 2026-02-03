@@ -1,6 +1,6 @@
-# Qodestack Landing Page
+# Qodestak Landing Page
 
-A professional, dark-themed landing page for Qodestack - a development firm specializing in blockchain infrastructure and full-stack development.
+A professional, dark-themed landing page for Qodestak - a development firm specializing in blockchain infrastructure and full-stack development.
 
 ## Features
 
@@ -35,7 +35,7 @@ A professional, dark-themed landing page for Qodestack - a development firm spec
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd qodestack-landing
+cd qodestak-landing
 ```
 
 2. Install dependencies:
@@ -78,7 +78,7 @@ After deployment, Netlify Forms should automatically work. Form submissions will
 To configure email notifications:
 1. Go to your site in Netlify dashboard
 2. Navigate to "Forms" → "Form notifications"
-3. Add email notification to `hello@qodestack.com`
+3. Add email notification to `hello@qodestak.com`
 
 ### Environment Variables
 
@@ -93,7 +93,7 @@ No environment variables are required for basic functionality.
 ## Project Structure
 
 ```
-qodestack-landing/
+qodestak-landing/
 ├── app/
 │   ├── globals.css          # Global styles with Tailwind
 │   ├── layout.tsx            # Root layout with metadata
@@ -135,7 +135,7 @@ colors: {
 - **Hero section**: Edit `components/Hero.tsx`
 - **Services**: Modify the `services` array in `components/Services.tsx`
 - **About**: Update text and stats in `components/About.tsx`
-- **Contact email**: Change `hello@qodestack.com` in `components/Contact.tsx`
+- **Contact email**: Change `hello@qodestak.com` in `components/Contact.tsx`
 
 ### Metadata
 
@@ -175,8 +175,8 @@ The contact form uses Netlify Forms for serverless form handling. Features:
 
 ## Support
 
-For issues or questions, contact hello@qodestack.com
+For issues or questions, contact hello@qodestak.com
 
 ## License
 
-Copyright © 2026 Qodestack. All rights reserved.
+Copyright © 2026 Qodestak. All rights reserved.

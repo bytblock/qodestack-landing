@@ -4,13 +4,13 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            About <span className="gradient-text">Qodestack</span>
+            About <span className="gradient-text">Qodestak</span>
           </h2>
         </div>
 
         <div className="space-y-6 text-lg text-gray-300">
           <p>
-            Qodestack is a development firm specializing in blockchain infrastructure 
+            Qodestak is a development firm specializing in blockchain infrastructure 
             and full-stack development. We combine deep technical expertise with a 
             commitment to delivering production-ready solutions that scale.
           </p>

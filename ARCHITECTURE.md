@@ -73,7 +73,7 @@ POST to "/" with form-name="contact"
      ↓
 Netlify Forms processes
      ↓
-Email sent to hello@qodestack.com
+Email sent to hello@qodestak.com
      ↓
 Success/Error feedback to user
 ```
@@ -197,7 +197,7 @@ Stores in dashboard
      ↓
 Email notification
      ↓
-hello@qodestack.com
+hello@qodestak.com
 ```
 
 ## File Dependencies

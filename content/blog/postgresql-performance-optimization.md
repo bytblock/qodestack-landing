@@ -2,7 +2,7 @@
 title: "PostgreSQL Performance Optimization: From Slow Queries to Lightning Fast"
 excerpt: "A deep dive into PostgreSQL performance optimization covering indexing strategies, query optimization, connection pooling, and advanced tuning techniques that can improve your database performance by 10-100x."
 date: "2024-06-20"
-author: "Qodestack Team"
+author: "Qodestak Team"
 tags: ["postgresql", "database", "performance", "optimization", "sql"]
 ---
 

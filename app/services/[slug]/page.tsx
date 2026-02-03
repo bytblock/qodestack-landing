@@ -86,7 +86,7 @@ const services: Record<string, Service> = {
     ],
     techStack: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'PostgreSQL', 'MongoDB', 'Redis'],
     caseStudy: {
-      title: 'Qodestack Landing: Modern Marketing Site',
+      title: 'Qodestak Landing: Modern Marketing Site',
       challenge: 'Create a production-ready marketing site with blog functionality, service pages, and contact forms while maintaining excellent performance and SEO.',
       solution: 'Built with Next.js 14 App Router and React 19, using Tailwind CSS for styling. Implemented dynamic routing for services and blog posts, form validation with react-hook-form, and optimized images with next/image.',
       results: [
@@ -184,12 +184,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!service) {
     return {
-      title: 'Service Not Found - Qodestack',
+      title: 'Service Not Found - Qodestak',
     }
   }
 
   return {
-    title: `${service.title} - Qodestack`,
+    title: `${service.title} - Qodestak`,
     description: service.description,
   }
 }

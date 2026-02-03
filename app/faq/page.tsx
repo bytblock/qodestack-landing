@@ -11,7 +11,7 @@ const faqs = [
     category: 'General',
     questions: [
       {
-        q: 'What services does Qodestack offer?',
+        q: 'What services does Qodestak offer?',
         a: 'We specialize in blockchain infrastructure, smart contract development, full-stack dApp creation, DevOps, and Web3 integration. From Ethereum nodes to complete enterprise solutions.'
       },
       {
@@ -86,7 +86,7 @@ export default function FAQPage() {
                 Frequently Asked <span className="gradient-text-animated">Questions</span>
               </h1>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                Everything you need to know about working with Qodestack. Can't find an answer? Contact us directly.
+                Everything you need to know about working with Qodestak. Can't find an answer? Contact us directly.
               </p>
             </motion.div>
 
