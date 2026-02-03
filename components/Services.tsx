@@ -49,7 +49,7 @@ export default function Services() {
             <Link
               key={index}
               href={`/services/${service.slug}`}
-              className="bg-matte-light p-8 rounded-xl border border-gray-800 hover:border-accent-blue transition-all duration-300 group block"
+              className="bg-matte-light p-8 rounded-xl border border-gray-800 hover-lift hover-glow transition-smooth group block"
             >
               <div className="text-5xl mb-4">{service.icon}</div>
               <h3 className="text-2xl font-bold mb-3 group-hover:text-accent-blue transition-colors">
