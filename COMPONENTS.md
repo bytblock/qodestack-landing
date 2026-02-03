@@ -214,7 +214,7 @@ Edit `components/About.tsx`:
 ```
 
 ### Change Contact Email
-Replace `hello@qodestak.com` in:
+Replace `b@qode.sh` in:
 - `components/Contact.tsx` (2 locations)
 - `components/Footer.tsx`
 

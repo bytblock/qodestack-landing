@@ -60,7 +60,7 @@ Black background with centered content:
 
 ### 4. Contact Section
 Dark gray background:
-- Headline with email link (hello@qodestak.com)
+- Headline with email link (b@qode.sh)
 - Full-featured form:
   - Name (required)
   - Email (required, validated)
@@ -69,7 +69,7 @@ Dark gray background:
   - Submit button
 - Success/error message display
 - Netlify Forms integration (serverless)
-- Form submissions go to hello@qodestak.com
+- Form submissions go to b@qode.sh
 
 ### 5. Footer
 Simple black footer:

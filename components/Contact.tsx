@@ -44,8 +44,8 @@ export default function Contact() {
           </h2>
           <p className="text-xl text-gray-400">
             Ready to start your project? Contact us at{' '}
-            <a href="mailto:hello@qodestak.com" className="text-accent-blue hover:underline">
-              hello@qodestak.com
+            <a href="mailto:b@qode.sh" className="text-accent-blue hover:underline">
+              b@qode.sh
             </a>{' '}
             or use the form below.
           </p>
@@ -137,7 +137,7 @@ export default function Contact() {
 
           {submitStatus === 'error' && (
             <div className="p-4 bg-red-900 bg-opacity-50 border border-red-700 rounded-lg text-red-300">
-              Sorry, there was an error sending your message. Please try again or email us directly at hello@qodestak.com.
+              Sorry, there was an error sending your message. Please try again or email us directly at b@qode.sh.
             </div>
           )}
         </form>

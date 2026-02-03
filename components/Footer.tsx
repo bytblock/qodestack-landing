@@ -89,8 +89,8 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Qodestak. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
-              <a href="mailto:hello@qodestak.com" className="text-gray-400 hover:text-accent-blue transition-colors">
-                hello@qodestak.com
+              <a href="mailto:b@qode.sh" className="text-gray-400 hover:text-accent-blue transition-colors">
+                b@qode.sh
               </a>
               <span className="text-gray-600">•</span>
               <span className="text-gray-400">Built with ❤️ for Web3</span>

@@ -21,7 +21,7 @@
 
 3. **Configure Contact Form**
    - After deployment, go to "Forms" in Netlify dashboard
-   - Set up email notification to `hello@qodestak.com`
+   - Set up email notification to `b@qode.sh`
    - Form submissions will appear in the Forms tab
 
 4. **Add Custom Domain (Optional)**
@@ -79,4 +79,4 @@ npm start
 
 ## Support
 
-For deployment issues, contact Netlify support or email hello@qodestak.com
+For deployment issues, contact Netlify support or email b@qode.sh

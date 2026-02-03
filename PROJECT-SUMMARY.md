@@ -21,7 +21,7 @@ A production-ready, professional landing page for Qodestak with:
 1. **Hero** - Compelling headline with dual CTAs
 2. **Services** - 4 core offerings with detailed features
 3. **About** - Company overview with key metrics
-4. **Contact** - Fully functional form → hello@qodestak.com
+4. **Contact** - Fully functional form → b@qode.sh
 5. **Footer** - Copyright and contact info
 
 ### 📦 What's Included
@@ -73,7 +73,7 @@ A production-ready, professional landing page for Qodestak with:
 1. Push code to Git repository
 2. Connect repository to Netlify
 3. Deploy (auto-configured)
-4. Configure form notifications to hello@qodestak.com
+4. Configure form notifications to b@qode.sh
 
 **Deployment takes ~2 minutes!**
 
@@ -85,7 +85,7 @@ A production-ready, professional landing page for Qodestak with:
 - **Email notifications** - Via Netlify
 - **Success/error feedback** - User-friendly messages
 
-Form data goes to **hello@qodestak.com**
+Form data goes to **b@qode.sh**
 
 ## 🎯 Key Features
 

@@ -25,7 +25,7 @@
 - [ ] Test locally: `npm run dev`
 - [ ] Test production build: `npm run build && npm start`
 - [ ] Review all content for accuracy
-- [ ] Verify email address (hello@qodestak.com) is correct
+- [ ] Verify email address (b@qode.sh) is correct
 - [ ] Test contact form functionality
 
 ## 🚀 Deployment Steps
@@ -50,7 +50,7 @@
 
 4. [ ] Configure Netlify Forms
    - Go to Forms tab
-   - Set email notification to hello@qodestak.com
+   - Set email notification to b@qode.sh
 
 5. [ ] (Optional) Add custom domain
    - Domain settings → Add custom domain
@@ -74,7 +74,7 @@ After deployment, test these:
 - Homepage: `https://your-site.netlify.app`
 - Hero CTAs: Should scroll to sections
 - Contact form: Should submit successfully
-- Email link: `hello@qodestak.com` should open email client
+- Email link: `b@qode.sh` should open email client
 
 ## 🎨 Customization Options
 
@@ -85,13 +85,13 @@ If you want to customize:
 3. **SEO**: Edit metadata in `app/layout.tsx`
 4. **Services**: Modify array in `components/Services.tsx`
 5. **Stats**: Update numbers in `components/About.tsx`
-6. **Email**: Change `hello@qodestak.com` in `Contact.tsx` and `Footer.tsx`
+6. **Email**: Change `b@qode.sh` in `Contact.tsx` and `Footer.tsx`
 
 ## 📞 Support
 
 - **Technical issues**: See README.md and DEPLOYMENT.md
 - **Netlify help**: https://docs.netlify.com
-- **Contact**: hello@qodestak.com
+- **Contact**: b@qode.sh
 
 ## 🎉 Ready to Launch!
 

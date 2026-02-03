@@ -78,7 +78,7 @@ After deployment, Netlify Forms should automatically work. Form submissions will
 To configure email notifications:
 1. Go to your site in Netlify dashboard
 2. Navigate to "Forms" → "Form notifications"
-3. Add email notification to `hello@qodestak.com`
+3. Add email notification to `b@qode.sh`
 
 ### Environment Variables
 
@@ -135,7 +135,7 @@ colors: {
 - **Hero section**: Edit `components/Hero.tsx`
 - **Services**: Modify the `services` array in `components/Services.tsx`
 - **About**: Update text and stats in `components/About.tsx`
-- **Contact email**: Change `hello@qodestak.com` in `components/Contact.tsx`
+- **Contact email**: Change `b@qode.sh` in `components/Contact.tsx`
 
 ### Metadata
 
@@ -175,7 +175,7 @@ The contact form uses Netlify Forms for serverless form handling. Features:
 
 ## Support
 
-For issues or questions, contact hello@qodestak.com
+For issues or questions, contact b@qode.sh
 
 ## License
 
